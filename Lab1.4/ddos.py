@@ -16,9 +16,9 @@ class IPv4Ranbom (IPv4Network):
         return x.key_value()
 
     random.seed()
-rnlist = []
+#rnlist = []
 i=0
-while i < 5:
+while i < 10:
     net1 = IPv4Ranbom(10,12)
     print(net1)
     i=i+1
