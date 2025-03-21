@@ -17,10 +17,15 @@ class IPv4Ranbom (IPv4Network):
 
     random.seed()
 rnlist = []
+i=0
+while i < 5:
+    net1 = IPv4Ranbom(10,12)
+    print(net1)
+    i=i+1
 
-while len(rnlist) < 50:
-    random_network = IPv4Ranbom(8,24)
-    if random_network.regular() and random_network not in rnlist:
-        rnlist.append(random_network)
-print (rnlist)
+#while len(rnlist) < 50:
+ #   random_network = IPv4Ranbom(10,24)
+  #  if random_network.regular() and random_network not in rnlist:
+   #     rnlist.append(random_network)
+#print (rnlist)
 
